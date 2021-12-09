@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <title>Inspiration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body> 
+    <SCRIPT LANGUAGE="JAVASCRIPT">
+        var r_text = new Array ();
+        r_text[0] = "I was just thinking about you!";
+        r_text[1] = "You are a great example for others.";
+        r_text[2] = "You have great ideas.";
+        r_text[3] = "When I grow up I want to be you!";
+        r_text[4] = "I appreciate all of your opinions.";
+        r_text[5] = "Never Back Down Never Give Up";
+        r_text[6] = "You are an Inspiration to others";
+        r_text[7] = "Keep grinding and you'll make it to the finish line";
+        r_text[8] = "Be Yourself";
+        r_text[9] = "Live life, the world ends tomorrow";
+        r_text[10] = "Yesterday is history, tomorrow is a mystery, today is a gift of God, which is why we call it the present";
+        r_text[11] = "You being you, could change someones life";
+        r_text[12] = "Do the best you can";
+        r_text[13] = "Do what you can, with what you have, where you are";
+        r_text[14] = "It's never too late to be what you might've been";
+        r_text[15] = "If you can dream it, you can do it";
+        r_text[16] = "Trust yourself that you can do it and get it"
+
+        
+        var i = Math.floor(r_text.length * Math.random());
+        
+        document.write("<br /><br /><br /><br /><br /><br /><br /><center><FONT SIZE=72><FONT COLOR='#FFFFFF'>" +
+        r_text[i]  + "</FONT></center><br />");
+        
+        var bgcolorlist=new Array("#228B22", "#FFD700", "#ADFF2F", "#FF69B4", "#CD5C5C", "#4B0082", "#7CFC00", "#ADD8E6", "#E84643", "#ED0A07", "#EA2907", "#E5294B", "#E00D26", "#FF3030", "#FC7500", "#F95700", "#F43900", "#F95620")
+        
+        document.body.style.background=bgcolorlist[Math.floor(Math.random()*bgcolorlist.length)];
+        
+        </script>
+            <style type="text/css">
+        <!--
+        body,td,th {
+             color: #000;
+             font-family: Helvetica, sans-serif;}
+        </style>
+        <center><button class= "reload" onClick="window.location.reload();">Next Quote</button></center>
+</body>
